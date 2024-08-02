@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- siteyi telefonda görünür yapar-->
+    <meta name="keywords" content="JAVA dersleri, c++ dersleri">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <title>BIS - BilgiSistemleri</title>
+</head>
+
+<body>
+
+    <nav class="header">
+        <div>
+            <div>
+                <h1>BIS <a href="http://127.0.0.1:5502/taslak.html"></a></h1>
+                <p>BilgiSistemleri <a href="http://127.0.0.1:5502/taslak.html"></a></p>
+            </div>
+            <button><i class="fa-solid fa-bars"></i></button>
+            <button><i class="fa-solid fa-clock-rotate-left"></i></button>
+            <button><i class="fa-solid fa-gear"></i>Ayarlar</button>
+            <button><i class="fa-sharp fa-regular fa-envelope"></i>Mesaj</button>
+        </div>
+        <div>
+            <button> <i class="fa-solid fa-earth-americas"></i></button>
+
+            <button>CAN SAĞLAM
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                    </a>
+                    <div>
+                        <ul class="dr-concent">
+                            <li><a class="dropdown-item" href="#">edit profile</a></li>
+                            <li><a class="dropdown-item" href="#">comments</a></li>
+                            <li><a class="dropdown-item" href="#">add user</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </button>
+
+            <button><i class="fa-solid fa-right-from-bracket"></i>
+                Çıkış</button>
+            <button><i class="fa-sharp fa-regular fa-newspaper"></i></button>
+        </div>
+
+    </nav>
+
+    <section class="date">
+
+        <div class="secenekler">
+
+            <button>
+                <i class="fa-sharp fa-solid fa-coins"></i>
+            </button>
+            <button>
+                <i class="fa-solid fa-chart-pie"></i>
+            </button>
+            <button>
+                <i class="fa-solid fa-pen"></i>
+            </button>
+            <button>
+                <i class="fa-regular fa-life-ring"></i>
+            </button>
+        </div>
+
+        <div>
+            <h3>CUMA, 2 AĞUSTOS</h3>
+        </div>
+
+        <div>
+            <input type="text" placeholder="Envanter No">
+            <button>Getir</button>
+        </div>
+
+    </section>
+
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 sidebar">
+                    <ul>
+                        <h3>Navigation</h3>
+                        <hr>
+                        <li><i class="fa-solid fa-display"></i><a href="">Panel</a></li>
+                        <li><i class="fa-solid fa-barcode"></i><a href="">Barkod Oluştur</a></li>
+                        <li><i class="fa-solid fa-user"></i><a href="">Zimmet Yap</a></li>
+                        <li><i class="fa-solid fa-coins"></i><a href="">Aktif İşler</a></li>
+                        <li class="dropdown-menu">
+                            <i class="fa-solid fa-life-ring"></i>
+                            <div class="dropdown-toggle">Help Desk<i class="fa-solid fa-chevron-down"></i></div>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li><i class="fa-solid fa-arrow-right"></i>Yeni Kayıt</li>
+                                    <li><i class="fa-solid fa-arrow-right"></i>Bekleyen</li>
+                                    <li><i class="fa-solid fa-arrow-right"></i>Arşiv</li>
+                                    <li><i class="fa-solid fa-arrow-right"></i>Genel Liste</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown-menu">
+                            <i class="fa-solid fa-list"></i>
+                            <div class="dropdown-toggle">Rapor Liste<i class="fa-solid fa-chevron-down"></i></div>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li><i class="fa-solid fa-bars"></i>Genel Envanter Raporu</li>
+                                    <li><i class="fa-solid fa-bars"></i>Servis Talep Raporu</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown-menu">
+                            <i class="fa-solid fa-pallet"></i>
+                            <div class="dropdown-toggle">Envanter<i class="fa-solid fa-chevron-down"></i></div>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li><i class="fa-solid fa-bars"></i>İç Servis</li>
+                                    <li><i class="fa-solid fa-bars"></i>Dış Servis</li>
+                                    <li><i class="fa-solid fa-bars"></i>Zimmetli Ürün Liste</li>
+                                    <li><i class="fa-solid fa-bars"></i>Barkod Liste</li>
+                                    <li><i class="fa-solid fa-bars"></i>Stok Liste</li>
+                                    <li><i class="fa-solid fa-bars"></i>Hurda Liste</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown-menu">
+                            <i class="fa-regular fa-life-ring"></i>
+                            <div class="dropdown-toggle">Bakım Plan<i class="fa-solid fa-chevron-down"></i></div>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li><i class="fa-solid fa-arrow-right"></i>Plan Liste</li>
+                                    <li><i class="fa-solid fa-arrow-right"></i>Yeni Plan</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown-menu">
+                            <i class="fa-solid fa-pen"></i>
+                            <div class="dropdown-toggle">Genel Tanımlar<i class="fa-solid fa-chevron-down"></i></div>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li><i class="fa-solid fa-bars"></i>Firma</li>
+                                    <li><i class="fa-solid fa-bars"></i>Lokasyon</li>
+                                    <li><i class="fa-solid fa-bars"></i>Departman</li>
+                                    <li><i class="fa-solid fa-bars"></i>Kullanıcı</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown-menu">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <div class="dropdown-toggle">Ürün Tanımları<i class="fa-solid fa-chevron-down"></i></div>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li><i class="fa-solid fa-bars"></i>Ürün Tipi</li>
+                                    <li><i class="fa-solid fa-bars"></i>Marka</li>
+                                    <li><i class="fa-solid fa-bars"></i>Model</li>
+                                    <li><i class="fa-solid fa-bars"></i>Program</li>
+                                    <li><i class="fa-solid fa-bars"></i>Firma(Servis)</li>
+                                    <li><i class="fa-solid fa-bars"></i>Firma(Tedarikçi)</li>
+                                    <li><i class="fa-solid fa-bars"></i>Lisans Türü</li>
+                                    <li><i class="fa-solid fa-bars"></i>İşletim Sistemi</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cont1">
+                    <div class="box">TOPLAM KAYIT</div>
+                    <div class="box">BU AY</div>
+                    <div class="box">BU HAFTA</div>
+                    <div class="box">BUGÜN</div>
+                </div>
+
+                <div class="col-md-10 main-content">
+                    <div class="tablo">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Talep No</th>
+                                    <th>Talep Tarihi</th>
+                                    <th>Talep Eden</th>
+                                    <th>Talep Başlık</th>
+                                    <th>Atanan Kişi</th>
+                                    <th>İşlem</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>
+                                        <button class="btn btn-success">İşlem</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>
+                                        <button class="btn btn-success">İşlem</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>
+                                        <button class="btn btn-success">İşlem</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>
+                                        <button class="btn btn-success">İşlem</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>
+                                        <button class="btn btn-success">İşlem</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>
+                                        <button class="btn btn-success">İşlem</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>123456789</td>
+                                    <td>
+                                        <button class="btn btn-success">İşlem</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="foot">
+        <footer>
+            <p>Copyrights &copy; 2017 Nova Reklamcılık,All rights reserved.</p>
+        </footer>
+</body>
+
+</html>
